@@ -1,0 +1,5 @@
+opencv-python>=4.5
+mediapipe==0.10.14        # newer releases dropped the "solutions" API used here
+numpy
+pycaw ; sys_platform == "win32"      # volume-control only
+comtypes ; sys_platform == "win32"   # volume-control only
